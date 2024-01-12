@@ -19,6 +19,6 @@ class Article extends Model
     }
 
     public function programming() {
-        return $this->belongsToMany(programming::class,'article_programming');
+        return $this->belongsToMany(Programming::class,'article_programming');
     }
 }
